@@ -1,5 +1,4 @@
 
-//entry -> output
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -13,6 +12,7 @@ module.exports = (env)=>{
     entry: './src/app.js',
     output: {
       path: path.join(__dirname, '/public'),
+      publicPath: '/public',
       filename: 'bundle.js'
     },
     module: {
