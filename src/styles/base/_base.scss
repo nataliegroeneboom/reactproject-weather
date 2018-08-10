@@ -1,0 +1,41 @@
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  overflow: hidden;
+  margin: 0px;
+}
+
+button{
+  cursor: pointer;
+}
+button:disabled{
+  cursor: default;
+}
+
+.is-active{
+  font-weight: bold;
+}
+
+.background-img{
+  position: absolute;
+  top:-100;
+  bottom: 0;
+  z-index: -100;
+  width: 100vw;
+  height: 100vh;
+}
+
+*{
+  font-family: 'PT Sans', sans-serif;
+}
+
+.icon{
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
