@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "8.11.2",
-    "npm" : "6.1.0",
+    "npm": "6.1.0",
     "yarn": "1.9.2"
   },
   "main": "index.js",
@@ -54,7 +54,9 @@
     "webpack-dev-server": "2.5.1"
   },
   "description": "",
-  "devDependencies": {},
+  "devDependencies": {
+    "file-loader": "^1.1.11"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nataliegroeneboom/reactproject-weather.git"

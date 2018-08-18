@@ -37,18 +37,16 @@ module.exports = (env) => {
         })
       },
       {
-          test: /\.(png|jpe?g|gif)$/,
-          use: [
-            {
-              loader: 'file-loader',
-
-              options: {
-                name: '[path][name].[ext]',
-              },
-
+        test: /\.(png|jpg|jpeg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
             }
-          ]
-        }
+          }
+        ]
+      }
 
     ]
     },
