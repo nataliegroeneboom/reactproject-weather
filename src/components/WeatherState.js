@@ -5,8 +5,8 @@ import Geolocation from './Geolocation';
 import Icon from './Icon';
 import Temp from './Temp';
 import Wrapper from './Wrapper';
-import clear from '../img/clear.jpeg';
-import Image from 'react-image-resizer';
+//import clear from '../img/clear.jpeg';
+//import Image from 'react-image-resizer';
 
 export const button = {
                   celsius: true,

@@ -1,4 +1,4 @@
-import partly from '../img/partlycloudy.jpg';
+//import partly from '../img/partlycloudy.jpg';
 import React from 'react';
 
 
